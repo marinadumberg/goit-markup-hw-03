@@ -237,9 +237,31 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer .logo {
+.footer .logo-footer {
   margin-bottom: 20px;
 }
+.logo {
+  text-decoration: none;
+}
+
+.logo-footer-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
 .footer .address {
   margin-bottom: 9px;
 }
@@ -251,6 +273,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer-address-mail-link,
