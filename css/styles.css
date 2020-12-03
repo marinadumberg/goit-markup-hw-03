@@ -249,24 +249,20 @@ img {
 
 .logo-footer-studio {
   font-family: "Raleway", sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
-}
-
-.footer .address {
-  margin-bottom: 9px;
 }
 
 .footer-address-map-link {
@@ -277,6 +273,7 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .footer-address-mail-link,
@@ -288,6 +285,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 /*footer end*/
@@ -353,7 +351,8 @@ img {
 }
 
 .section-portfolio {
-  padding-top: 41px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-list:hover,
@@ -408,7 +407,5 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.section-portfolio {
-  padding-bottom: 147px;
-}
+
 /*portfolio end*/
