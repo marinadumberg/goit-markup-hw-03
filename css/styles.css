@@ -240,7 +240,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer .logo-footer {
+.logo-footer {
   margin-bottom: 20px;
 }
 .logo {
@@ -273,7 +273,6 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
-  margin-bottom: 9px;
 }
 
 .footer-address-mail-link,
@@ -285,9 +284,18 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   text-decoration: none;
+}
+
+.footer-address-list-map {
+  margin-bottom: 9px;
+}
+.footer-address-list-tel {
   margin-bottom: 9px;
 }
 
+.footer-address-list-mail {
+  margin-bottom: 9px;
+}
 /*footer end*/
 
 /*portfolio*/
@@ -373,13 +381,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
-  margin-left: -36px;
+  margin-left: -30px;
+  padding: 0;
 }
 
 .gallery-list {
   margin-top: 30px;
   margin-left: 30px;
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
+  padding: 0;
 }
 
 .gallery-list-wraper {
