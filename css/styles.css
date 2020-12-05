@@ -164,6 +164,11 @@ img {
   color: #ffffff;
   margin-bottom: 30px;
 }
+
+.dignity {
+  padding-bottom: 0;
+}
+
 .dignity .container {
   display: flex;
   align-items: center;
